@@ -1,3 +1,7 @@
 text = input("Enter a sentence: ")
-words = text.split()
-print("Word count:", len(words))   
+count = 1
+for i in text:
+    if i == " ":
+        count = count + 1
+print("Word count:", count)   
+
