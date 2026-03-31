@@ -1,0 +1,10 @@
+import numpy
+a = numpy.array([[[[[[[1,2,3],[4,5,6],[7,8,9]]]]]]])
+print(a.ndim)
+print(a.size)
+print(a.shape)
+print(a.dtype)
+print(a.itemsize)
+print(a.data)
+
+
